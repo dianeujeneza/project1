@@ -6,16 +6,24 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* .one {
-  background-color: blueviolet;
-} */
+.one {
+  background-color: rgba(161, 158, 158, 0.2);
+  justify-content: center;
+}
 
 .mid {
   display: flex;
-  justify-content: space-around;
-  background-color: rgba(0.5, 0.5, 0.5, 0.2);
+  flex-direction: column;
+  justify-items: stretch;
+  /* justify-content: space-around; */
 }
 .up {
   padding: 300px;
   /* background-image: url("") */
+}
+
+h1{
+    font-size: 20px;
+    font-style: normal;
+    color: aliceblue;
 }
