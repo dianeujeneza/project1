@@ -1,0 +1,11 @@
+img {
+  float: left;
+}
+body {
+  background-image: url("https://byronestrada.com/wp-content/uploads/2019/03/photo-1498050108023-c5249f4df085.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .one {
+  background-color: blueviolet;
+} */
