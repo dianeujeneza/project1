@@ -5,6 +5,8 @@ body {
   background-image: url("https://byronestrada.com/wp-content/uploads/2019/03/photo-1498050108023-c5249f4df085.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  background-attachment: fixed;
 }
 .about {
   clear: both;
@@ -41,7 +43,7 @@ h1 {
 span {
   color: skyblue;
 }
-h2 {
-  font-size: 80px;
+h3 {
+  font-size: 50px;
   color: azure;
 }
