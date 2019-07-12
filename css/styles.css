@@ -9,3 +9,9 @@ body {
 /* .one {
   background-color: blueviolet;
 } */
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  justify-items: stretch;
+}
