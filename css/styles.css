@@ -1,14 +1,14 @@
 img {
-  float: right;
+  float: left;
 }
 body {
   background-image: url("https://byronestrada.com/wp-content/uploads/2019/03/photo-1498050108023-c5249f4df085.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-.one {
-  background-color: rgba(161, 158, 158, 0.2);
-  justify-content: center;
+.about {
+  clear: both;
+  padding: 2%;
 }
 
 .mid {
@@ -16,14 +16,28 @@ body {
   flex-direction: column;
   justify-items: stretch;
   /* justify-content: space-around; */
+  background-color: rgba(161, 158, 158, 0.7);
 }
 .up {
   padding: 300px;
   /* background-image: url("") */
 }
 
-h1{
-    font-size: 20px;
-    font-style: normal;
-    color: aliceblue;
+h1 {
+  font-size: 100px;
+  font-style: normal;
+  color: rgb(14, 13, 13);
+}
+#two {
+  padding: 2%;
+}
+
+.projects {
+  padding: 2%;
+}
+#down {
+  display: flex;
+}
+span {
+  color: wheat;
 }
